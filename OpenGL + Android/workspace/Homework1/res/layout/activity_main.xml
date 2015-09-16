@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <Button
+        android:id="@+id/imageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cube" 
+    	android:textSize="10pt" >
+    </Button>
+    <Button 
+    android:id="@+id/imageButton2"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:text="Tetrahedron" 
+    android:textSize="10pt" >
+    </Button>
+    <Button 
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodecahedron"
+        android:textSize="10pt" >
+    </Button>
+    <Button
+        android:id="@+id/imageButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Icosahedron"
+        android:textSize="10pt" >
+    </Button>
+   <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:layout_marginLeft="6pt" 
+    android:layout_marginRight="6pt" 
+    android:textSize="8pt" 
+    android:layout_marginTop="4pt" 
+    android:id="@+id/message" 
+    android:gravity="center_horizontal"> 
+  </TextView>
+  <ImageView
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"
+      android:id="@+id/carimage">
+  </ImageView>
+  
+</LinearLayout>

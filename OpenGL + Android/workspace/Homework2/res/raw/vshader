@@ -1,0 +1,30 @@
+attribute vec4 vPosition;
+uniform mat4 uMVPMatrix;
+uniform float deltaT;
+varying vec3 color;
+varying vec3 color2;
+
+void main() {               
+    float s = 2.0f;
+    s = s + 2.0 * sin ( 0.02 * deltaT );
+    vec4 temp = vec4 ( s, s, s, 1 );
+    float sec = 100;
+    float t = deltaT/sec;
+    float red, green, blue;
+    color2 = vec3(0.5, 0.5, 0.5);
+    red = t + 0.5 * sin ( color2[0] * deltaT);
+    green = s + 0.5 * sin ( color2[1] * deltaT);
+    blue = 1-t + 0.5 * sin ( color[2] * deltaT);
+    if (t >= 5) {
+    	t = 0;
+    	t = deltaT/sec;
+    }
+    else 
+    	t = deltaT/sec;
+
+    // The matrix must be included as part of gl_Position
+    // Note that the uMVPMatrix factor *must be first* in order
+    // for the matrix multiplication product to be correct.
+    color = vec3(red, green, blue);
+    gl_Position = uMVPMatrix * (temp * vPosition );
+}

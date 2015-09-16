@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="saxan.project.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/buttonXn"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="X--" />
+
+		    <Button
+		        android:id="@+id/buttonXr"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="X 0" />
+
+		    <Button
+		        android:id="@+id/buttonXp"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="X++" />
+
+		    <Button
+		        android:id="@+id/buttonYn"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Y--" />
+
+		    <Button
+		        android:id="@+id/buttonYr"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Y 0" />
+
+		    <Button
+		        android:id="@+id/buttonYp"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Y++" />
+
+		    <Button
+		        android:id="@+id/buttonZn"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Z--" />
+
+		    <Button
+		        android:id="@+id/buttonZr"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Z 0" />
+
+		    <Button
+		        android:id="@+id/buttonZp"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="65dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="1"
+		        android:text="Z++" />
+		</LinearLayout>
+
+		<saxan.project.MyGLSurfaceView
+			android:id="@+id/surfaceviewclass"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+</LinearLayout>

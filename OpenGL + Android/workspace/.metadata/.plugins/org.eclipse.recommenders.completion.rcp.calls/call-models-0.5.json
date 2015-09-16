@@ -1,0 +1,37 @@
+{
+  "/u/student/003914325/android-sdks/platforms/android-18/android.jar": {
+    "location": "/u/student/003914325/android-sdks/platforms/android-18/android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/u/student/003914325/android-sdks/platforms/android-18/android.jar\u0027. Neither fingerprint \u0027f4f6d0685c8372195356c55b8578565fe2487825\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "/share/android-sdks/platforms/android-18/android.jar": {
+    "location": "/share/android-sdks/platforms/android-18/android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/share/android-sdks/platforms/android-18/android.jar\u0027. Neither fingerprint \u0027f4f6d0685c8372195356c55b8578565fe2487825\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "/students/student/003914325/workspace/Lab3c/src": {
+    "location": "/students/student/003914325/workspace/Lab3c/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/students/student/003914325/workspace/Lab3c/src\u0027. Skipped."
+  },
+  "/students/student/003914325/workspace/Button/gen": {
+    "location": "/students/student/003914325/workspace/Button/gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/students/student/003914325/workspace/Button/gen\u0027. Skipped."
+  },
+  "/share/android-sdks/platforms/android-19/android.jar": {
+    "location": "/share/android-sdks/platforms/android-19/android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/share/android-sdks/platforms/android-19/android.jar\u0027. Neither fingerprint \u00277f972d2aa0fcb741fc84a9a10c98555f6f431a7a\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "/students/student/003914325/workspace/Homework1/src": {
+    "location": "/students/student/003914325/workspace/Homework1/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/students/student/003914325/workspace/Homework1/src\u0027. Skipped."
+  },
+  "/students/student/003914325/workspace/Lab11/gen": {
+    "location": "/students/student/003914325/workspace/Lab11/gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/students/student/003914325/workspace/Lab11/gen\u0027. Skipped."
+  }
+}
